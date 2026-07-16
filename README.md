@@ -1,35 +1,45 @@
-# MediCare Hub 💊
+# Nancee 💙
 
-A modern and user-friendly Medical Item Selling Platform developed as a University Group Project using React and Vite. The platform enables customers to browse, search, and purchase medical products online while providing administrators with efficient inventory and product management capabilities.
-
----
-
-## 📖 Project Overview
-
-MediCare Hub is an e-commerce web application designed to simplify the process of purchasing medical supplies and healthcare products online. The system provides an intuitive user interface for customers and an administrative dashboard for managing products, orders, and inventory.
-
-This project was developed as part of the Software Development curriculum to apply modern web development concepts, UI/UX design principles, and collaborative software engineering practices.
+An Online Medical Item Selling Platform developed as a University Group Project using React and Vite. Nancee provides customers with a convenient way to browse, purchase, and manage medical products online while offering administrators efficient tools for inventory and order management.
 
 ---
 
-## 🚀 Features
+## 📖 About The Project
+
+Nancee is a modern e-commerce platform designed to simplify access to healthcare and medical products. The system allows users to search for medical items, view product details, manage shopping carts, and place orders through a user-friendly interface.
+
+This project was developed as part of a university academic program to demonstrate software engineering practices, full-stack web development, user-centered design, and team collaboration skills.
+
+---
+
+## 🎯 Objectives
+
+- Provide an accessible online platform for medical product purchasing.
+- Improve the user experience of buying healthcare essentials.
+- Demonstrate the implementation of modern web technologies.
+- Apply software development methodologies in a group environment.
+
+---
+
+## ✨ Features
 
 ### Customer Features
-- Browse medical products by category
-- Search products by name
-- View detailed product information
-- Add items to shopping cart
-- Update and remove cart items
-- User registration and login
-- Secure checkout process
-- Responsive design for desktop and mobile devices
+- User Registration and Login
+- Browse Medical Products
+- Search and Filter Products
+- Product Detail View
+- Shopping Cart Management
+- Secure Checkout Process
+- Order Tracking
+- Responsive Design
 
-### Administrator Features
-- Add, edit, and delete products
-- Manage inventory and stock levels
-- View customer orders
-- Update order statuses
-- Manage product categories
+### Admin Features
+- Product Management
+- Inventory Management
+- Category Management
+- Order Management
+- Dashboard Analytics
+- User Management
 
 ---
 
@@ -38,9 +48,9 @@ This project was developed as part of the Software Development curriculum to app
 ### Frontend
 - React.js
 - Vite
-- React Router
+- React Router DOM
 - Axios
-- CSS3 / Tailwind CSS (if applicable)
+- CSS / Tailwind CSS
 
 ### Backend
 - Node.js
@@ -49,9 +59,10 @@ This project was developed as part of the Software Development curriculum to app
 ### Database
 - MongoDB
 
-### Additional Tools
-- Git & GitHub
-- VS Code
+### Development Tools
+- Git
+- GitHub
+- Visual Studio Code
 - Postman
 
 ---
@@ -59,17 +70,18 @@ This project was developed as part of the Software Development curriculum to app
 ## 📂 Project Structure
 
 ```bash
-MediCare-Hub/
+Nancee/
 │
 ├── public/
 ├── src/
 │   ├── assets/
 │   ├── components/
 │   ├── pages/
+│   ├── layouts/
 │   ├── services/
+│   ├── context/
 │   ├── routes/
 │   ├── hooks/
-│   ├── context/
 │   └── App.jsx
 │
 ├── package.json
@@ -79,41 +91,43 @@ MediCare-Hub/
 
 ---
 
-## ⚙️ Installation
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Ensure you have the following installed:
+Before running the project, make sure you have:
 
-- Node.js (v18 or later)
-- npm or yarn
-- Git
+- Node.js installed
+- npm or yarn package manager
+- Git installed
 
-### Clone the Repository
+### Installation
 
-```bash
-git clone https://github.com/your-username/medical-item-selling-platform.git
-```
-
-### Navigate to the Project Directory
+Clone the repository:
 
 ```bash
-cd medical-item-selling-platform
+git clone https://github.com/your-username/nancee.git
 ```
 
-### Install Dependencies
+Navigate to the project folder:
+
+```bash
+cd nancee
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Start Development Server
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-The application will be available at:
+Open your browser and navigate to:
 
 ```bash
 http://localhost:5173
@@ -121,7 +135,9 @@ http://localhost:5173
 
 ---
 
-## 🔧 Build for Production
+## 🏗️ Production Build
+
+Build the application:
 
 ```bash
 npm run build
@@ -135,48 +151,65 @@ npm run preview
 
 ---
 
-## 👥 Team Members
+## 👨‍🎓 University Group Project
 
-| Name | Role |
-|--------|--------|
-| Member 01 | Frontend Development |
-| Member 02 | Backend Development |
-| Member 03 | Database Design |
-| Member 04 | UI/UX Design |
-| Member 05 | Testing & Documentation |
+This project was developed collaboratively by a group of undergraduate students as part of the university curriculum.
+
+### Team Members
+
+- Team Member 1 – Project Manager
+- Team Member 2 – Frontend Developer
+- Team Member 3 – Backend Developer
+- Team Member 4 – Database Developer
+- Team Member 5 – Quality Assurance & Documentation
+
+*(Replace the names and roles with your actual team information.)*
 
 ---
 
-## 🎯 Learning Outcomes
+## 📚 Learning Outcomes
 
-Through this project, our team gained experience in:
+During the development of Nancee, the team gained practical experience in:
 
-- Modern React development
-- Component-based architecture
-- REST API integration
-- Database design and management
-- Version control using Git and GitHub
-- Agile team collaboration
-- Software testing and debugging
+- React Application Development
+- RESTful API Integration
+- Database Design and Management
+- UI/UX Principles
+- Version Control with Git & GitHub
+- Team Collaboration and Agile Development
+- Software Testing and Deployment
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of the following pages:
+
+- Home Page
+- Product Listing Page
+- Product Details Page
+- Shopping Cart
+- Admin Dashboard
 
 ---
 
 ## 🔒 Disclaimer
 
-This project was developed solely for academic purposes as a university group project. The platform prototype is intended to demonstrate web application development concepts and may not fully comply with medical industry regulations for commercial deployment.
+Nancee is an academic project developed for educational purposes only. The platform is not intended for commercial medical sales without meeting the necessary legal, healthcare, and regulatory requirements.
 
 ---
 
-## 📜 License
+## 📄 License
 
-This project is developed for educational purposes only.
-
----
-
-## 📬 Contact
-
-For any inquiries regarding this project, please contact the project team through your university channels or repository issue tracker.
+This project is developed for educational purposes under university coursework requirements.
 
 ---
 
-### Developed with ❤️ by the University Group Project Team
+## ❤️ Acknowledgements
+
+We would like to thank our lecturers, supervisors, and team members for their guidance and support throughout the development of this project.
+
+---
+
+# Nancee
+### Your Trusted Medical Shopping Companion
